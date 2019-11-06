@@ -1,0 +1,72 @@
+.box {
+  position: relative:
+  margin: auto;
+  display: block;
+  height: 500px;
+  width: 500px;
+}
+
+.head {
+  background: #fcf2b1;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.eyes {
+  position: absolute;
+  height: 60%;
+  width: 60%;
+}
+
+.eye-left {
+  position: absolute;
+  background: white;
+  top: 15%;
+  left: 25%;
+  height: 25%;
+  width: 25%;
+  border-radius: 50%;
+}
+
+.eye-right {
+  position: absolute;
+  background: white;
+  top: 15%;
+  right: 25%;
+  height: 25%;
+  width: 25%;
+  border-radius: 50%;
+}
+
+.pupil {
+  position: absolute;
+  background: black;
+  height: 40%;
+  width: 40%;
+  border-radius: 50%;
+  left: 20%;
+  top: 5%;
+}
+
+.nose {
+  position: absolute;
+  border-top: 17px solid #f2de77;
+  border-radius: 50%;
+  height: 22%;
+  width: 20%;
+  left: 39%;
+  top: 41%;
+}
+
+.mouth {
+  position: absolute;
+  background: black;
+  border-radius: 50%;
+  height: 10%;
+  width: 10%;
+  top: 60%;
+  left: 45%;
+}
+
