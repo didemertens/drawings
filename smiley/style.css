@@ -1,9 +1,10 @@
+
 .box {
-  position: relative:
+  position: relative;
+  width: 300px;
+  height: 300px;
   margin: auto;
-  display: block;
-  height: 500px;
-  width: 500px;
+  top: 20%;
 }
 
 .head {
@@ -62,11 +63,24 @@
 
 .mouth {
   position: absolute;
-  background: black;
+  height: 25%;
+  width: 70%;
+  top: 41%;
+  left: 12%;
+  border: 10px solid transparent;
+  border-bottom: 10px solid black;
   border-radius: 50%;
-  height: 10%;
-  width: 10%;
-  top: 60%;
-  left: 45%;
 }
 
+/*.mouth {
+  position: absolute;
+  background: black;
+  border: 5px solid black;
+  border-radius: 10px 10px 150px 150px;
+  height: 25%;
+  width: 30%;
+  top: 60%;
+  left: 33%;
+}
+
+*/
