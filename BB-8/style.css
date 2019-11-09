@@ -1,0 +1,159 @@
+.box {
+  position: relative;
+  margin: auto;
+  height: 200px;
+  width: 200px;
+  top: 15%;
+}
+
+.body {
+  height: 80%;
+  width: 80%;
+  border-radius: 50%;
+  background: #FEFEFE;
+  border: 9px solid black;
+  position: absolute;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.orange-first {
+  position: absolute;
+  height: 50%;
+  width: 50%;
+  border-radius: 50%;
+  background: orange;
+  border: 7px solid black;
+  top: 47%;
+  left: -20%;
+  z-index: 2;
+}
+
+.orange-first-centre {
+  position: absolute;
+  height: 40%;
+  width: 40%;
+  border-radius: 50%;
+  background: #FEFEFE;
+  border: 7px solid black;
+  top: 22%;
+  left: 22%;
+}
+
+.orange-second {
+  position: absolute;
+  height: 50%;
+  width: 50%;
+  border-radius: 50%;
+  background: orange;
+  border: 7px solid black;
+  top: 2%;
+  left: 50%;
+  z-index: 2;
+}
+
+.orange-second-centre {
+  position: absolute;
+  height: 40%;
+  width: 40%;
+  border-radius: 50%;
+  background: #FEFEFE;
+  border: 7px solid black;
+  top: 22%;
+  left: 22%;
+}
+
+.orange-third {
+  position: absolute;
+  height: 50%;
+  width: 80%;
+  border-radius: 50%;
+  background: orange;
+  border: 7px solid black;
+  top: 76%;
+  left: 51%;
+  z-index: 2;
+}
+
+.first-line {
+  position: absolute;
+  top: ;
+  border-bottom: 7px solid black;
+  height: 60%;
+  width: 60%;
+  transform: rotate(-40deg);
+  z-index: 1;
+}
+
+.second-line {
+  position: absolute;
+  top: 58%;
+  left: 40%;
+  border-left: 7px solid black;
+  height: 40%;
+  width: 40%;
+  z-index: 1;
+  transform: rotate(-62deg);
+}
+
+.third-line {
+  position: absolute;
+  top: 58%;
+  left: 40%;
+  border-right: 7px solid black;
+  height: 40%;
+  width: 40%;
+  z-index: 1;
+  transform: rotate(2deg);
+}
+
+.head {
+  position: absolute;
+  height: 40%;
+  width: 50%;
+  border-radius: 50% 50% 20% 20%;
+  transform: rotate(-40deg);
+  background: #FEFEFE;
+  border: 9px solid black;
+  top: -20%;
+  left: -11%;
+  z-index: 2;
+}
+
+.eye {
+  position: absolute;
+  height: 25%;
+  width: 25%;
+  background: black;
+  border: 9px solid black;
+  border-radius: 50%;
+  top: 30%;
+  left: 27%;
+}
+
+.eye-light {
+  position: absolute;
+  height: 55%;
+  width: 60%;
+  background: white;
+  border-radius: 25%;
+  top: -3%;
+  left: 45%;
+}
+
+.eye-second {
+  position: absolute;
+  height: 1%;
+  width: 1%;
+  background: black;
+  border: 9px solid black;
+  border-radius: 50%;
+  top: 59%;
+  left: 150%;
+}
+
+
+
+
+
+
